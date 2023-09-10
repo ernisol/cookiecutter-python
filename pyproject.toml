@@ -1,3 +1,17 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cookiecutter-python"
+authors = [
+    {name = "Erwan Nisol", email = "erwan.nisol@free.fr"},
+]
+description = "{{cookiecutter.project_short_description}}"
+readme = "README.md"
+requires-python = ">=3.9"
+dynamic = ["version"]
+
 [tool.ruff]
 select = ["D", "E", "F", "I", "N", "W"]
 ignore = [
