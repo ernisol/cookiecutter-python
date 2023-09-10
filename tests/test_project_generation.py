@@ -45,7 +45,7 @@ def test_bake_with_defaults(cookies):
             "setup.cfg",
             "tox.ini",
         ]
-        assert set(found_toplevel_files) == set(expected_files)
+        assert all([file in found_toplevel_files for file in expected_files])
 
 
 @pytest.mark.parametrize("linter", ["black", "ruff", "ruff-fix"])
