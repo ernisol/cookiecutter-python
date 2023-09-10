@@ -1,9 +1,5 @@
-from distutils.core import setup
+"""Allows for package installation with older setuptools versions."""
 
-setup(
-    name="cookiecutter-python",
-    version="0.0.0",
-    description="",
-    author="Erwan Nisol",
-    author_email="erwan.nisol@free.fr",
-)
+from setuptools import setup
+
+setup()
