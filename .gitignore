@@ -20,3 +20,5 @@ wheels/
 
 # Automation
 .tox/
+.ruff_cache/
+__pycache__/
