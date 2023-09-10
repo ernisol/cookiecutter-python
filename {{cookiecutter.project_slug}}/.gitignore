@@ -17,3 +17,8 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+
+# Automation
+.tox/
+.ruff_cache/
+__pycache__/

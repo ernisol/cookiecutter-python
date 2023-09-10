@@ -1,3 +1,5 @@
+"""Allows for package installation."""
+
 from distutils.core import setup
 
 setup(
