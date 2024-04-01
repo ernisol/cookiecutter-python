@@ -2,4 +2,4 @@
 
 from setuptools import setup
 
-setup(name={{cookiecutter.project_slug}}, verion="0.0.0")
+setup(name={{cookiecutter.project_slug}}, version="0.0.0")
