@@ -1,9 +1,8 @@
 {
-    "full_name": "Erwan Nisol",
-    "email": "erwan@example.com",
-    "github_username": "ernisol",
-    "project_name": "Project",
-    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
-    "project_short_description": "",
-    "version": "0.0.0"
+  "full_name": "Erwan Nisol",
+  "email": "erwan@example.com",
+  "github_username": "ernisol",
+  "project_name": "Project",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": ""
 }
